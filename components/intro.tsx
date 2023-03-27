@@ -14,7 +14,7 @@ const Intro = () => {
         <Image
           src={logoMain}
           alt="Main Logo"
-          className="hover:shadow-lg transition-shadow duration-200"
+          className=""
           width={200}
           height={200}
         />
