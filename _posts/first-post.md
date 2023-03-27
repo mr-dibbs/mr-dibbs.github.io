@@ -1,6 +1,6 @@
 ---
 title: 'First Post!'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Hey Everyone! Thanks for taking time to check out my blog!'
 coverImage: '/assets/blog/first-post/cover.svg'
 date: '2023-03-26T07:02:07.322Z'
 author:
