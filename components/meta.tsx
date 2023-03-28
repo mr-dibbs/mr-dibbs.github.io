@@ -37,7 +37,7 @@ const Meta = () => {
         name="description"
         content="mr-dibbs blog"
       />
-      <meta property="og:image" content="/assets/blog/logos/mr-dibbs-logo.svg" />
+      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
   )
 }

@@ -79,6 +79,12 @@ const SEO: FC<Props> = ({
       <title key="title">
         {title ? `${config.titleTemplate.replace(/%s/g, title)}` : config.title}
       </title>
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/favicon/favicon-16x16.png"
+      />
       <meta
         key="description"
         name="description"

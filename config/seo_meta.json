@@ -1,18 +1,18 @@
 {
     "title": "mr-dibbs blog",
     "titleTemplate": "%s - mr-dibbs blog",
-    "description": "mr-dibbs blog site - https://mm-art-store.vercel.app/",
+    "description": "mr-dibbs blog site - https://mr-dibbs.github.io/",
     "openGraph": {
       "title": "mr-dibbs blog",
-      "description": "Melissa Miller Arts - https://mm-art-store.vercel.app/",
+      "description": "mr-dibbs blog - https://mr-dibbs.github.io/",
       "type": "website",
-      "url": "https://mm-art-store.vercel.app/",
-      "site_name": "MELISSA MILLER ARTS STORE",
+      "url": "https://mr-dibbs.github.io/",
+      "site_name": "mr-dibbs blog",
       "images": [
         {
-          "url": "/mr-dibbs-logo.svg",
-          "width": "600",
-          "height": "400",
+          "url": "/logos/mr-dibbs-logo.svg",
+          "width": "200",
+          "height": "200",
           "alt": "mr-dibbs logo"
         }
       ]
