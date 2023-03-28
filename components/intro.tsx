@@ -1,6 +1,6 @@
 import { CMS_NAME } from "../lib/constants";
 import Image from "next/image";
-import logoMain from "/public/assets/blog/logos/mr-dibbs-logo.svg"
+import logoMain from "/public/logos/mr-dibbs-logo.svg"
 import cn from 'classnames'
 
 

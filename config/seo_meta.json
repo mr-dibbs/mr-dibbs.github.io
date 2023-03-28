@@ -1,0 +1,25 @@
+{
+    "title": "mr-dibbs blog",
+    "titleTemplate": "%s - mr-dibbs blog",
+    "description": "mr-dibbs blog site - https://mr-dibbs.github.io/",
+    "openGraph": {
+      "title": "mr-dibbs blog",
+      "description": "mr-dibbs blog - https://mr-dibbs.github.io/",
+      "type": "website",
+      "url": "https://mr-dibbs.github.io/",
+      "site_name": "mr-dibbs blog",
+      "images": [
+        {
+          "url": "/favicon/mr-dibbs-logo.png",
+          "width": "800",
+          "height": "800",
+          "alt": "mr-dibbs logo"
+        }
+      ]
+    },
+    "twitter": {
+      "handle": "@nextjs",
+      "site": "@nextjs",
+      "cardType": "summary_large_image"
+    }
+  }

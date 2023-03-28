@@ -18,9 +18,9 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
-        <Head>
+        {/* <Head>
           <title>mr-dibbs blog</title>
-        </Head>
+        </Head> */}
         <Container>
           <Intro />
           {heroPost && (

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoMain from "/public/assets/blog/logos/mr-dibbs-logo.svg"
+import logoMain from "/public/logos/mr-dibbs-logo.svg"
 
 const Header = () => {
   return (
