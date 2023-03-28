@@ -10,9 +10,9 @@
       "site_name": "mr-dibbs blog",
       "images": [
         {
-          "url": "/logos/mr-dibbs-logo.svg",
-          "width": "200",
-          "height": "200",
+          "url": "/favicon/mr-dibbs-logo.png",
+          "width": "400",
+          "height": "400",
           "alt": "mr-dibbs logo"
         }
       ]
