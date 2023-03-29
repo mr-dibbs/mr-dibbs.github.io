@@ -1,6 +1,5 @@
 ---
 title: 'Second Verse...'
-excerpt: "same as the first, but a little bit louder and a whole lot worse! Don't worry, it's not really an error (hopefully) - read on for the fix."
 coverImage: '/assets/blog/second-post/cover.png'
 date: '2023-03-28T16:55:07.322Z'
 author:
@@ -12,7 +11,10 @@ ogImage:
 
 same as the first, but a little bit louder and a whole lot worse! Don't worry, it's not really an error (hopefully) - read on for the fix.
 
-Full disclaimer: markdown noob here
+Full disclaimer: markdown noob here.
+
+----
+
 
 ## Gotcha
 

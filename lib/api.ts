@@ -12,7 +12,8 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, '')
   const fullPath = join(postsDirectory, `${realSlug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+  const { data, content, excerpt } = matter(fileContents, {excerpt: true})
+  
 
   type Items = {
     [key: string]: string
@@ -27,6 +28,9 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
     }
     if (field === 'content') {
       items[field] = content
+    }
+    if (field === 'excerpt') {
+      items[field] = excerpt
     }
 
     if (typeof data[field] !== 'undefined') {
@@ -45,3 +49,7 @@ export function getAllPosts(fields: string[] = []) {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
   return posts
 }
+
+/* function firstFourLines(file, options) {
+  file.excerpt = file.content.split('\n').slice(0,4).join(' ');
+} */
