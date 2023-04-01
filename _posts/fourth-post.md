@@ -12,10 +12,8 @@ ogImage:
 Today is going to be a low effort post (sorry, not sorry). This is a balisong flipping trick called the twirl.
 I am a total noob, so be nice!
 
----
 
-
-
+ file:///home/mr-dibbs/projects/mr-dibbs.github.io/public/assets/blog/fourth-post/twirl.mp4
 
 
 
