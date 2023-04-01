@@ -11,10 +11,12 @@ ogImage:
 
 Now that we made it through our excerpt debacle, I got to thinking, do we really have to set that manually for each post?
 
-As it turns out, we do not! I took a trip over the gray-matter (used by blog-starter template to parse meta data from md files) docs and
-reviewed the excerpt option examples.
+As it turns out, we do not! 
 
 ---
+
+I took a trip over the gray-matter (used by blog-starter template to parse meta data from md files) docs and
+reviewed the excerpt option examples.
 
 ![Image](/assets/blog/third-post/excerpt-default.png)
 

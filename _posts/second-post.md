@@ -11,10 +11,9 @@ ogImage:
 
 same as the first, but a little bit louder and a whole lot worse! Don't worry, it's not really an error (hopefully) - read on for the fix.
 
+---
+
 Full disclaimer: markdown noob here.
-
-----
-
 
 ## Gotcha
 
