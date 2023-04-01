@@ -17,10 +17,7 @@ export default function Index({ allPosts }: Props) {
   const morePosts = allPosts.slice(1)
   return (
     <>
-      <Layout>
-        {/* <Head>
-          <title>mr-dibbs blog</title>
-        </Head> */}
+      <Layout>        
         <Container>
           <Intro />
           {heroPost && (
