@@ -11,13 +11,11 @@ export default async function markdownToHtml(markdown: string) {
   const result = await unified()
   .use(remarkParse)
   .use(remarkRehype, {allowDangerousHtml: true})
-  // .use(rehypeRaw) // *Parse* the raw HTML strings embedded in the tree
+  .use(rehypeRaw) // *Parse* the raw HTML strings embedded in the tree
   // .use(rehypeSanitize)
-  .use(rehypeStringify, {allowDangerousHtml: true})
+  .use(rehypeStringify)
   .process(markdown)  
   
-  return result.toString()
-  
-/*   const result = await remark().use(html).process(markdown)
-  return result.toString() */
+  return String(result)  
+
 }
